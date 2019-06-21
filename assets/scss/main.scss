@@ -1,0 +1,51 @@
+$dark: #000;
+$white: #fff;
+$sm: 15px;
+$md: 35px;
+$lg: 60px; 
+$t-width: 100%;
+$zero: 0;
+
+
+nav {
+    height: $lg;
+    background-color: $dark;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        width: 60px;
+        height: 20px;
+    }
+    a {
+        color:$white;
+        padding: 0 10px;
+        text-decoration: none; 
+    }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: $zero;
+    padding: $zero;
+}
+h3 {
+    color:$white;
+}
+
+#portada{
+    background-image: url("../images/portada5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
